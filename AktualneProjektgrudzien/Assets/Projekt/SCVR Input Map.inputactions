@@ -1,0 +1,54 @@
+{
+    "name": "SCVR Input Map",
+    "maps": [
+        {
+            "name": "SCVR RightHand Locomotion",
+            "id": "d85e3b39-ddeb-4eb3-93db-ed0958d751e6",
+            "actions": [
+                {
+                    "name": "Teleport Mode Activate",
+                    "type": "Value",
+                    "id": "048df5b6-74bf-4a70-8e1b-ec161475b8d3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Teleport Go",
+                    "type": "Button",
+                    "id": "077b19ed-bd67-4837-8327-5af9f0dab74d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8ff9f122-53f4-4c2c-b08b-c227ee082cfc",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
+                    "interactions": "Sector(directions=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "31b3fc07-57ee-4876-9409-88ad8a4bf8a3",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport Go",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
