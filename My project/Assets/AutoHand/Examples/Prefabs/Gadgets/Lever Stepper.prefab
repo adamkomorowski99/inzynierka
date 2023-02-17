@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -358,7 +358,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -555,7 +555,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -647,27 +647,27 @@ MonoBehaviour:
   hightlightMaterial: {fileID: 0}
   isGrabbable: 1
   CopySettings: {fileID: 0}
+  grabType: 0
+  handType: 0
   singleHandOnly: 0
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
-  ignoreWeight: 0
   maintainGrabOffset: 1
+  ignoreWeight: 0
   parentOnGrab: 0
   throwPower: 1
   jointBreakForce: 5000
   showAdvancedSettings: 0
-  handType: 0
-  grabType: 0
   makeChildrenGrabbable: 1
-  pullApartBreakOnly: 1
-  customGrabJoint: {fileID: 0}
-  ignoreReleaseTime: 0.25
   grabPriorityWeight: 1
+  ignoreReleaseTime: 0.25
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
+  customGrabJoint: {fileID: 0}
   jointedBodies: []
   heldIgnoreColliders: []
+  pullApartBreakOnly: 1
   showEvents: 1
   onGrab:
     m_PersistentCalls:
@@ -675,7 +675,6 @@ MonoBehaviour:
   onRelease:
     m_PersistentCalls:
       m_Calls: []
-  showAdvancedEvents: 0
   onSqueeze:
     m_PersistentCalls:
       m_Calls: []
@@ -807,7 +806,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -822,7 +822,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -838,7 +839,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -853,7 +855,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -869,7 +872,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -884,7 +888,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -900,7 +905,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -915,7 +921,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -931,7 +938,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -946,7 +954,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -962,7 +971,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -977,7 +987,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -993,7 +1004,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 4f90fb2688849c54588be9a3d89d6f46,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -1008,7 +1020,8 @@ MonoBehaviour:
           m_MethodName: set_material
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91, type: 2}
+            m_ObjectArgument: {fileID: 2100000, guid: 3ca04dbd767079644aaa779bd2df9b91,
+              type: 2}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -1078,7 +1091,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1414,7 +1427,8 @@ MonoBehaviour:
   m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f5ba820a8971fa449b12f4c76629933c, type: 2}
-  m_sharedMaterial: {fileID: -3438387809978036471, guid: f5ba820a8971fa449b12f4c76629933c, type: 2}
+  m_sharedMaterial: {fileID: -3438387809978036471, guid: f5ba820a8971fa449b12f4c76629933c,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1573,7 +1587,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1951,7 +1965,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2272,7 +2286,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
